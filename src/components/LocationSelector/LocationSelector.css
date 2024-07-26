@@ -1,0 +1,48 @@
+.location-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdowns-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .message-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  .message-city {
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .message-state-country {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
