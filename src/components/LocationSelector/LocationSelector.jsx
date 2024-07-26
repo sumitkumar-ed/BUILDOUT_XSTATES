@@ -101,9 +101,9 @@ const LocationSelector = () => {
         </select>
       </div>
       {message && (
-        <div className="message">
+        <span className="message">
           {`You selected ${selectedCity}, ${selectedState}, ${selectedCountry}`}
-        </div>
+        </span>
       )}
     </div>
   );
