@@ -83,9 +83,9 @@ const LocationSelector = () => {
       </div>
       {message && (
         <div className="message">
-          <p className="message-title">You Selected</p>
-          <h1 className="message-city">{selectedCity} ,</h1>
-          <p className="message-state-country">{`${selectedState}, ${selectedCountry}`}</p>
+          <span className="message-title">You Selected</span>
+          <span className="message-city">{selectedCity},</span>
+          <span className="message-state-country">{` ${selectedState}, ${selectedCountry}`}</span>
         </div>
       )}
     </div>
